@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{edd9221f-1927-4a9f-9210-c7ea9830903b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc">
+      <UniqueIdentifier>{d692650f-e31a-4f4e-a5dd-4260fecb40ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cam">
+      <UniqueIdentifier>{4af92790-6574-4264-b383-6584e27a869f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhfz">
+      <UniqueIdentifier>{7049133d-1aa3-4f6a-ac20-76497209728c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MHFZ FreeCam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CE_mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="CE_proc.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="mhfz_ptr.cpp">
+      <Filter>mhfz</Filter>
+    </ClCompile>
+    <ClCompile Include="cam_mem.cpp">
+      <Filter>cam</Filter>
+    </ClCompile>
+    <ClCompile Include="cam_free.cpp">
+      <Filter>cam</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CE_mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="CE_proc.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="mhfz_ptr.h">
+      <Filter>mhfz</Filter>
+    </ClInclude>
+    <ClInclude Include="cam_mem.h">
+      <Filter>cam</Filter>
+    </ClInclude>
+    <ClInclude Include="cam_free.h">
+      <Filter>cam</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
